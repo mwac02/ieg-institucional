@@ -13,7 +13,7 @@
 </head>
 <body>
     <header>
-        <div class="container">
+        <div class="header-container">
             <div class="logo">
                 <img src="assets/Ufopa braso PNG [fundo transparente].png" alt="Ufopa">
             </div>
@@ -22,30 +22,81 @@
                 <p class="second">Instituto de Engenharia e Geociências</p>
             </div>
         </div>
-        <div class="navbar">
-            <a href="#">Início</a>
-            <a href="#">Sobre</a>
-            <div class="dropdown">
-                <button class="dropbtn">
-                    Programas
-                </button>
-                <div class="dropdown-content">
-                    <a href="#">Programa de Computação - PC</a>
-                    <a href="#">Programa de Ciência e Tecnologia - PC&T</a>
-                    <a href="#">Programa de Computação - PCdT</a>
-                </div>
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn">
-                    Serviços
-                </button>
-                <div class="dropdown-content">
-                    <a href="#">Serviços da CAD</a>
-                    <a href="#">Serviços da CAC </a>
-                </div>
-            </div>
-            <a href="#">Contatos</a>
-        </div>
     </header>
+    <div class="navigation w-25">
+        <div class="accordion w-100 accordion-flush" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Instituto
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <div class="list-group list-group-flush">
+                        <a href="#" class="list-group-item list-group-item-action">Sobre</a>
+                        <a href="#" class="list-group-item list-group-item-action">Coordenadoria Administrativa</a>
+                        <a href="#" class="list-group-item list-group-item-action">Coordenadoria Acadêmica</a>
+                        <a class="list-group-item list-group-item-action" aria-disabled="true">Coordenadoria Técnica</a>
+                        <a class="list-group-item list-group-item-action" aria-disabled="true">Laboratórios</a>
+                      </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Graduação
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <div class="list-group list-group-flush">
+                    <a href="#" class="list-group-item list-group-item-action">Bacharelado em Ciência da Computação</a>
+                    <a href="#" class="list-group-item list-group-item-action">Bacharelado em Sistemas de Informação</a>
+                    <a href="#" class="list-group-item list-group-item-action">BI em Ciências da Terra</a>
+                    <a class="list-group-item list-group-item-action" aria-disabled="true">Bacharelado em Geologia</a>
+                    <a class="list-group-item list-group-item-action" aria-disabled="true">Bacharelado em Geofísica</a>
+                    <a class="list-group-item list-group-item-action" aria-disabled="true">Bacharelado em Ciências Atmosféricas</a>
+                    <a class="list-group-item list-group-item-action" aria-disabled="true">BI em Ciência e Tecnologia</a>
+                    <a class="list-group-item list-group-item-action" aria-disabled="true">Bacharelado em Engenharia Física</a>
+                    <a class="list-group-item list-group-item-action" aria-disabled="true">Bacharelado em Engenharia Mecânica</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Pós-Graduação
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <div class="list-group list-group-flush">
+                        <a href="#" class="list-group-item list-group-item-action">PROFNIT - Programa de Pós-Graduação em Propriedade Intelectual e Transferência de Tecnologia</a>
+                        <a href="#" class="list-group-item list-group-item-action">PPGRNA - Programa de Pós-Graduação em Recursos Naturais da Amazônia</a>
+                      </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Serviços
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <div class="list-group list-group-flush">
+                        <a href="#" class="list-group-item list-group-item-action">Serviços da CAD</a>
+                        <a href="#" class="list-group-item list-group-item-action">Documentos IEG</a>
+                        <a href="#" class="list-group-item list-group-item-action">Serviços da CAC</a>
+                      </div>
+                </div>
+                </div>
+              </div>
+          </div>
+    </div>
 </body>
 </html>
