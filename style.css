@@ -41,7 +41,37 @@ header {
 /* Page Main Content */
 
 .page-main-content {
-    height: 100vh;
+    height: fit-content;
+}
+
+#about {
+    padding: 10px 15px 0 15px;
+}
+
+#about p {
+    text-align: justify;
+}
+
+#about p > span {
+    font-weight: bold;
+}
+
+#about p > a {
+    color: in;
+}
+
+.divider-div {
+    display: flex;
+    justify-content: center;
+}
+
+.divider {
+    display: block;
+    width: 95%;
+    height: 2px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background-color: #75767746;
 }
 
 #carousel {
