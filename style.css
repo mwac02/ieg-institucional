@@ -57,7 +57,7 @@ header {
 }
 
 #about p > a {
-    color: in;
+    color: inherit;
 }
 
 .divider-div {
@@ -95,6 +95,59 @@ header {
 
 .news-body p {
     width: 90%;
+}
+
+#team {
+    margin-top: 50px;
+    padding-left: 15px;
+}
+
+.wrapper {
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.wrapper i {
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.wrapper .team-carousel {
+    cursor: pointer;
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+}
+
+.team-carousel .team-card {
+    display: inline-block;
+    position: relative;
+    width: calc(100% / 6);
+    height: max-content;
+}
+
+.team-card .team-card-title {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: #212529;
+    font-weight: bold;
+    background-color: rgba(209, 209, 209, 0.678);
+}
+
+.team-carousel img{
+    height: auto;
+    user-select: none;
+    width: 100%;
+}
+
+.team-carousel img:first-child {
+    margin-left: 0px;
 }
 
 /* Footer */
