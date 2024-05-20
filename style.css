@@ -97,9 +97,32 @@ header {
     width: 90%;
 }
 
-#team {
+#notice, #team {
     margin-top: 50px;
     padding-left: 15px;
+}
+
+.notice-item {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.notice-icon i {
+    padding: 0 5px;
+    font-size: 40px;
+}
+
+.notice-body p {
+    margin: 0;
+}
+
+.notice-body p:first-child {
+    font-weight: bold;
+}
+
+.notice-body p:not(p:first-child) {
+    font-size: 14px;
 }
 
 .wrapper {
